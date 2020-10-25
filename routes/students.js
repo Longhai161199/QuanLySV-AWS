@@ -14,7 +14,7 @@ AWS.config.update({
   secretAccessKey: process.env.SECRETACCESSKEY,
 });
 
-const tableName = 'Students';
+const tableName = 'SinhVien';
 const bucketName = 'baitapgiuaky';
 const bucketUrl = 'https://baitapgiuaky.s3-ap-southeast-1.amazonaws.com/';
 const s3 = new AWS.S3();
